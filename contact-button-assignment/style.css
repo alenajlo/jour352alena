@@ -1,0 +1,30 @@
+/*
+MY COLOR PALETTE
+Color 1 - #F7EBEC
+Color 2 - #DDBDD5
+Color 3 - #AC9FBB
+Color 4 - #59656F
+Color 5 - #1D1E2C
+*/
+
+.button {
+    background-color: #59656F;
+    color: white; 
+    font: Roboto Mono; 
+    width: 200px; 
+    padding: 10px; 
+    margin-top: 30px; 
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    background-color: #59656F;
+    color: white;
+    border-radius: 4px;
+}
+
+.button1:hover {
+    background-color: #1D1E2C;
+    color: #F7EBEC;
+}
