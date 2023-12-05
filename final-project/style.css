@@ -1,0 +1,40 @@
+@media{
+    
+    
+#topper{
+    height: 700px;
+    background-image: url(25-of-students-chronically-absent-v0-PN7z9XhjQBg_PDB5FLws2iz2iP38owHxyCYiEI-BANI.webp);
+    background-size: cover;
+    background-position: 20% 80%;
+    width: 100%;
+}
+
+#content{
+    width: 60%;
+    margin:auto;
+}
+
+#first{
+    margin: 0px 300px 0px 300px;
+}
+
+#second{
+    margin: 0px 300px 0px 300px;
+}
+
+#closer{
+    margin: 0px 300px 0px 300px;
+}
+
+#footer{
+    margin: 0px 300px 0px 300px;
+}
+
+@media (min-width:992px) {
+    
+}
+
+@media (min-width:576px){
+    
+}
+}
