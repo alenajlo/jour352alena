@@ -1,43 +1,134 @@
 @media{
    
 #topper{
-    height: 700px;
+    height: auto;
     background-image: url(25-of-students-chronically-absent-v0-PN7z9XhjQBg_PDB5FLws2iz2iP38owHxyCYiEI-BANI.webp);
-    background-size: cover;
+    background-size: ;
     background-position: 20% 80%;
-    width: 100%;
+    width: auto;
 }
     
-#head{
-    margin: 0px 200px 0px 200px;
+hr{
+    color: crimson;
+    width: 300px;
+    margin: auto;
     }
 
-#content{
-    width: 60%;
-    margin:auto;
+#title{
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    }
+    
+#head{
+    margin: auto;
+    font-size: 13px;
+    }
+
+.picture{
+    width: 100%;
+    }
+    
+.caption{
+    font-size: 13px;
+    margin-top: 0px;
+    }
+    
+.paragraph{
+    margin: auto;
+    font-family: Garamond, serif;
+}
+    
+h2{
+    font-family: Verdana, sans-serif;    
+    }
+    
+.pullquote{
+    border-top: 2px solid crimson;
+    border-bottom: 2px solid crimson;
+    }
+    
+.quote{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    }
+    
+.attribution{
+    text-align: center;
+    }
+    
+#closer{
+    margin: auto;
+    font-family: Garamond, serif;
+    font-style: italic;
 }
 
-#first{
+#footer{
+    margin: auto;
+}
+
+@media (min-width:576px) {
+    
+    #topper{
+    height: 700px;
+    background-size: cover;
+    width: 100%;
+}
+
+#title{
+    margin: 40px 0px 40px 0px;
+    }
+    
+#head{
+    margin: 0px 100px 0px 100px;
+    }
+    
+.paragraph{
+    margin: 0px 100px 0px 100px;
+}
+
+.quote{
+    margin: 30px 0px 10px 0px;
+    }
+    
+#closer{
+    margin: 0px 100px 0px 100px;
+}
+
+#footer{
+    margin: 0px 100px 0px 100px;
+}
+
+@media (min-width:992px){
+    #topper{
+    height: 700px;
+    background-size: cover;
+    width: 100%;
+}
+
+#title{
+    margin: 40px 0px 40px 0px;
+    }
+    
+#head{
+    margin: 0px 300px 0px 300px;
+    }
+    
+.paragraph{
     margin: 0px 300px 0px 300px;
 }
 
-#second{
-    margin: 0px 300px 0px 300px;
-}
-
+.quote{
+    margin: 30px 0px 10px 0px;
+    }
+    
 #closer{
     margin: 0px 300px 0px 300px;
 }
 
 #footer{
     margin: 0px 300px 0px 300px;
-}
-
-@media (min-width:992px) {
-    
-}
-
-@media (min-width:576px){
-    
 }
 }
